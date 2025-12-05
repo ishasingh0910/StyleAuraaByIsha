@@ -16,6 +16,26 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;/*to remove underline*/
 }
+/* Default styles for laptop/large screens */
+body {
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Styles for tablets and mobiles */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
 body{
     height: 100vh;
     text-align: center;
@@ -629,3 +649,4 @@ ul{
     }
 
 }
+
